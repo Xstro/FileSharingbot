@@ -22,7 +22,7 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **My Name:** [ʀᴏᴄ](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -30,33 +30,33 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍ **Developer:** @AbirHasan2005
+🧑🏻‍ **Developer:** @xstromz
 
-👨‍💻 **Editing:** @Mrk_YT
+👨‍💻 **Editing:** @xstromz
 
-📺 **Support:** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
+📺 **sᴇʀɪᴇs:** [sᴇʀɪᴇsғʟɪx](https://t.me/seriesflx)
 
-🗣️ **Any Doubt:** @Mo_Tech_Group
+🗣️ **Any Doubt:** @xstromz
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Mo_Tech_YT)
+📢 **ᴍᴏᴠɪᴇs:** [ᴍᴏᴠɪᴇs sᴛᴏʀᴀɢᴇ](https://t.me/cinemaflx)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍ **Developer:** @AbirHasan2005
+🧑🏻‍ **Developer:** @xstromz
 
-💻 **Developer Details:** [Clcik Here](https://github.com/MoTechYT/MT-FilesStoreBot/blob/main/README.md)
+💻 **Developer Details:** [Clcik Here](https://github.com/Xstro/blob/main/README.md)
 
-👨‍💻 **Editing:** @Mrk_YT
+👨‍💻 **Editing:** @xstromz
 
-🗣️ **Any Doubt:** @Mo_Tech_Group
+🗣️ **Any Doubt:** @xstromz
 
-📺 **Support :** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
+📺 **sᴇʀɪᴇs :** [sᴇʀɪᴇsғʟɪx](https://t.me/seriesflx)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Mo_Tech_YT)
+📢 **ᴍᴏᴠɪᴇs:** [ᴍᴏᴠɪᴇs sᴛᴏʀᴀɢᴇ](https://t.me/cinemaflx)
 
 Donate Now (coming soon)
 """
 	HOME_TEXT = """
-**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **MT FileStoreBot**.
+**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** ** ʀᴏᴄ **.
 
 **Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button**.
 """
