@@ -49,11 +49,11 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("🔸Group", url="https://t.me/CinemaFlixz"),
+                        InlineKeyboardButton("🔹Channel", url="https://t.me/cinemaflx")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -79,7 +79,7 @@ async def start(bot: Client, cmd: Message):
                 send_stored_file = await bot.forward_messages(chat_id=cmd.from_user.id, from_chat_id=Config.DB_CHANNEL,
                                                               message_ids=file_id)
             await send_stored_file.reply_text(
-                f"**Here is Sharable Link of this file:** https://t.me/{Config.BOT_USERNAME}?start=MRK_YT_{file_id}\n\n__To Retrive the Stored File, just open the link!__",
+                f"**Here is Sharable Link of this file:** https://t.me/{Config.BOT_USERNAME}?start=xstromz{file_id}\n\n__To Retrive the Stored File, just open the link!__",
                 disable_web_page_preview=True, quote=True)
         except Exception as err:
             await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
@@ -102,7 +102,7 @@ async def main(bot: Client, message: Message):
             else:
                 pass
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/Mo_Tech_Group)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [🔹ɢʀᴏᴜᴘ](https://t.me/CinemaFlixz)",
                                      disable_web_page_preview=True)
             return
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -119,9 +119,9 @@ async def main(bot: Client, message: Message):
                 f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("♻️Open Link♻️", url=share_link)],
-                     [InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_Yt"),
-                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/Mo_Tech_Group")]]
+                    [[InlineKeyboardButton("⭕Open Link⭕", url=share_link)],
+                     [InlineKeyboardButton("🔸channel", url="https://t.me/cinemaflx"),
+                      InlineKeyboardButton("🔹Group", url="https://t.me/CinemaFlixz")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -162,7 +162,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = forwarded_msg.message_id
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MRK_YT_{file_er_id}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=xstromz_{file_er_id}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Stored Link", url=share_link)]]))
@@ -305,7 +305,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                                             url="https://github.com/Xstro")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -323,7 +323,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                                             url="https://github.com/Xstro")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -340,11 +340,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("🔹Group", url="https://t.me/CinemaFlixz"),
+                        InlineKeyboardButton("🔸Channel", url="https://t.me/cinemaflx")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Group](https://t.me/CinemaFlixz).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -383,7 +383,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                    text="Something went Wrong. Contact my [Group](https://t.me/xstromz).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -395,11 +395,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("🔹Group", url="https://t.me/CinemaFlixz"),
+                        InlineKeyboardButton("🔸Channel", url="https://t.me/cinemaflx")
                     ],
                     [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
