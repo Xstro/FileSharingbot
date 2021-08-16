@@ -1,6 +1,6 @@
 {
-    "name": "MT FilesStore Bot",
-    "description": "A Telegram Files Store Bot in Pyrogram by @MRK_YT",
+    "name": "ROC bot",
+    "description": "A Telegram Files Store Bot in Pyrogram by @xstromz",
     "logo": "https://telegra.ph/file/9e831d15da94deb56ef4c.png",
     "keywords": [
         "telegram",
@@ -8,8 +8,8 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/MoTechYT/MT-FilesStoreBot",
-    "website": "https://github.com/MRK-YT",
+    "repository": "https://github.com/Xstro/FileSharingbot",
+    "website": "https://github.com/Xstro",
     "success_url": "https://telegram.dog/Mo_Tech_YT",
     "env": {
         "API_ID": {
