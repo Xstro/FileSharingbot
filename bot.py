@@ -53,7 +53,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("🔹Channel", url="https://t.me/cinemaflx")
                     ],
                     [
-                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/GxNeo")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -344,7 +344,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("🔸Channel", url="https://t.me/cinemaflx")
                     ],
                     [
-                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/GxNeo")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
@@ -399,7 +399,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("🔸Channel", url="https://t.me/cinemaflx")
                     ],
                     [
-                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/GxNeo")
                     ],
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
