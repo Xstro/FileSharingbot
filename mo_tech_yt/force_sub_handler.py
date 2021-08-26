@@ -12,7 +12,7 @@ async def handle_force_sub(bot, cmd):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="**Sorry Sir😔**, **You are Banned to use me. Contact my** [Support Group](https://t.me/Mo_Tech_Group).",
+                text="**Sorry Sir😔**, **You are Banned to use me. Contact my** [🔸Group](https://t.me/CinemaFlixz).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -27,7 +27,7 @@ async def handle_force_sub(bot, cmd):
                         InlineKeyboardButton("🔊 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔊", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/xstromz")
+                        InlineKeyboardButton("👦 ᴅᴇᴠᴇʟᴘᴇʀ", url="https://t.me/GxNeo")
                     ],
                     [
                         InlineKeyboardButton("🔄 𝐑𝐞𝐟𝐫𝐞𝐬𝐡 🔄", callback_data="refreshmeh")
