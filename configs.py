@@ -30,9 +30,9 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍ **Developer:** @xstromz
+🧑🏻‍ **Developer:** @GxNeo
 
-👨‍💻 **Editing:** @xstromz
+👨‍💻 **Editing:** @GxNeo
 
 📺 **sᴇʀɪᴇs:** [sᴇʀɪᴇsғʟɪx](https://t.me/seriesflx)
 
@@ -41,13 +41,13 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📢 **ᴍᴏᴠɪᴇs:** [ᴍᴏᴠɪᴇs sᴛᴏʀᴀɢᴇ](https://t.me/cinemaflx)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍ **Developer:** @xstromz
+🧑🏻‍ **Developer:** @GxNeo
 
 💻 **Developer Details:** [Clcik Here](https://github.com/Xstro/blob/main/README.md)
 
-👨‍💻 **Editing:** @xstromz
+👨‍💻 **Editing:** @GxNeo
 
-🗣️ **Any Doubt:** @xstromz
+🗣️ **Any Doubt:** @GxNeo
 
 📺 **sᴇʀɪᴇs :** [sᴇʀɪᴇsғʟɪx](https://t.me/seriesflx)
 
@@ -56,8 +56,8 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 Donate Now (coming soon)
 """
 	HOME_TEXT = """
-**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** ** ʀᴏᴄ **.
+👋Hi, [{}](tg://user?id={})\n\n This is Permanent** ** ʀᴏᴄ .
 
-**Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button**.
+Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button.
 """
 
